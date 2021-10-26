@@ -2,11 +2,11 @@
 
 This project allows one to use (and compare) different methods to solve unconstrained minimization problems. The problem considered is of the form
 
-Find (x^*,y^*) \in \R^{2} such that f(x^*,y^*) = inf_{(x,y) \in \R^2} f(x,y).
+Find (x^{\star},y^{\star}) \in \R^{2} such that f(x^{\star},y^{\star}) = inf_{(x,y) \in \R^2} f(x,y).
 
 That is, we wish to find the minimizer of a given function using one of the following methods.
 - Relaxation Method for Function Minimization
-- Fletcher-Reeves Conjugate Gradient Metho for Function Minimization
+- Fletcher-Reeves Conjugate Gradient Method for Function Minimization
 - Polak-Ribiere Conjugate Gradient Mehtod for Function Minimization
 
 ## Dependencies
