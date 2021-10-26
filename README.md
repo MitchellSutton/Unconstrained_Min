@@ -64,7 +64,7 @@ The Fletcher-Reeves Conjugate Gradient method for approximating minimizers to a 
     - If tolerance is achieved, exit iterations
 - Output final minimizer
 
-Hidden within the method is a 1-D unconstrained optimization problem. Namely, solving for the optimal step size within each iteration. This is done by applying Newton's method to an auxilliary function which is related to the derivative of the function of interest. Note that a constant step size can be used. One must simply be wise in their choice of step size and understand than the total number of iterations before the tolerance is met may be significantly increased. 
+Hidden within the method is a 1D unconstrained optimization problem. Namely, solving for the optimal step size within each iteration. This is done by applying Newton's method to an auxilliary function which is related to the derivative of the function of interest. Note that a constant step size can be used. One must simply be wise in their choice of step size and understand than the total number of iterations before the tolerance is met may be significantly increased. 
 
 ### Polak-Ribiere Conjugate Gradient Method for Function Minimization
 The Polak-Ribier Conjugate Gradient Method (P-R) is an example of a so-called gradient method. In particular, it is an example of a conjugate gradient (CG) method (see Fletcher-Reeves for more information). The search direction in P-R depends explicitly on the quantity (\nabla f(u_{k}), \nabla f(u_{k})-\nabla f(u_{k-1}))/\|\nabla f(u_{k-1})\|^{2}, where \nabla f is the gradient of the function of interest and (,) is the dot product. 
